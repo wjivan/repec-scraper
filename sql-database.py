@@ -20,9 +20,9 @@ with open('config.yaml', 'r') as stream:
 
 # # Create a database connection
 db_password = config['dbpass']
-engine = create_engine('postgresql://wenjian:{}@localhost/gender'.format(db_password))
+engine = create_engine('postgresql://wenjian:{}@localhost/repec'.format(db_password))
 # Set up connection using psycopg2
-conn = psycopg2.connect("dbname=gender user=wenjian password={}".format(config['dbpass']))
+conn = psycopg2.connect("dbname=repec user=wenjian password={}".format(config['dbpass']))
 cur = conn.cursor()
 
 # Pipeline ---------->
