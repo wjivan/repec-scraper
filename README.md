@@ -5,7 +5,7 @@ This information will be especially useful in studying collaboration networks an
 
 # Process
 <img src="/workflow.png" style="text-align:center;">
-The scraper I wrote will gather information on all the personal pages for economists on REPEC from this ![summary page](https://ideas.repec.org/i/eall.html). 
+The scraper I wrote will gather information on all the personal pages for economists on REPEC from this [summary page](https://ideas.repec.org/i/eall.html). 
 
 The scraper will then go down the list and scrape the useful information on each of the personal pages - with downtime so as not to crash the server. 
 
